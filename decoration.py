@@ -34,7 +34,7 @@ class Water:
 		water_start = -screen_width
 		water_tile_width = 192
 		# wider than screen
-		tile_x_amt = int((level_width + screen_width) / water_tile_width)
+		tile_x_amt = int((level_width + screen_width) * 2 / water_tile_width)
 		
 		self.water_sprites = pygame.sprite.Group()
 
