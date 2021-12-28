@@ -56,7 +56,7 @@ class Clouds:
 		min_y = 0
 		max_y = horizon
 
-		self.cloud_sprites = pygame.sprites.Group()
+		self.cloud_sprites = pygame.sprite.Group()
 		for cloud in range(cloud_number):
 			cloud = choice(cloud_surf_list)
 			x = randint(min_x, max_x)

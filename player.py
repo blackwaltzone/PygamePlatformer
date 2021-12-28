@@ -115,6 +115,9 @@ class Player(pygame.sprite.Sprite):
 			else:
 				self.status = 'idle'
 
+	def facing_right(self):
+		return self.facing_right
+
 	def apply_gravity(self):
 		self.direction.y += self.gravity
 		self.rect.y += self.direction.y
