@@ -1,16 +1,3 @@
-level_map = [
-    '                   XXX',
-    '  X   X   X   X      X',
-    '                     X',
-    'XXX                XXX',
-    '  XX        XX        ',
-    '       X    XXXXX     ',
-    '      XX   XXX   X    ',
-    'XP                   X',
-    'XXX                XXX',
-    'XXXXXXXX  XXXX    XXXX'
-]
-
 vertical_tile_number = 11
 tile_size = 64
 screen_width = 1280
